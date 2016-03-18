@@ -4,5 +4,6 @@
 
 Android：
 android 需要修改项目frameworks\runtime-src\proj.android\build_native.py 里面的引擎路径
+编辑python文件的时候需要注意，python是严格要求空格的。所以换行什么的需要用空格不能用tab
 运行build_native.py
 成功后就可以开始打包 cocos compile ...
