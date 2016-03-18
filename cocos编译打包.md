@@ -1,5 +1,5 @@
 下载cocos2dx解压配置好路径(运行setup.py)
-先预编译库文件，不然会有很多库丢失    cocos gen-libs ...
+/r先预编译库文件，不然会有很多库丢失    cocos gen-libs ...
 新建项目，包名最好不要有纯数字eg.com.1234.xxx
 
 Android：
