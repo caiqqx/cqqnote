@@ -1,0 +1,13 @@
+包名最好不要有纯数字eg.com.1234.xxx
+下载cocos2dx解压配置好路径
+预编译库文件    cocos gen-libs ...
+新建项目
+android 需要修改项目frameworks\runtime-src\proj.android\build_native.py 里面的引擎路径
+运行build_native.py
+成功后就可以开始打包 cocos compile ...
+
+
+
+
+热更新记得CCTMXTiledMap 的tmx与图片是否有需要更新
+http://blog.mutoo.im/2015/01/CCTMXTiledMap-s-conflict-with-hot-update.html
