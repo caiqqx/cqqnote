@@ -1,14 +1,10 @@
 {
-        "packageUrl" : "http://cdn.zmxy4sy.3304399.net/test",
-        "remoteManifestUrl" : "http://cdn.zmxy4sy.3304399.net/test/project.manifest",
-        "remoteVersionUrl" : "http://cdn.zmxy4sy.3304399.net/test/version.manifest",
+        "packageUrl" : "http://caiqqx.com/test",
+        "remoteManifestUrl" : "http://caiqqx.com/project.manifest",
+        "remoteVersionUrl" : "http://caiqqx.com/version.manifest",
         "groupVersions" : {
         "1": "1.0.6001",
-	"2": "1.0.6002",
-	"3": "1.0.6003",
-	"4": "1.0.6004",
-	"5": "1.0.6005"
-	
+	"2": "1.0.6002"
         },
         "engineVersion" : "3.6.1",
         "searchPaths" : [],     
