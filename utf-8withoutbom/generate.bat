@@ -1,2 +1,2 @@
-node check.js
+node checkfileBom.js
 Pause
