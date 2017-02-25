@@ -1,5 +1,8 @@
-## Cocos2dx js
+# Cocos2dx js
 ---
+
+### 内容目录
+[TOC]
 
 ### JavaScript学习
 - [JavaScript秘密花园](http://www.jb51.net/onlineread/JavaScript-Garden-CN/)
