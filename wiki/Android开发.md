@@ -1,3 +1,23 @@
+## Cocos2dx js编译打包
+包名最好不要有纯数字eg.com.1234.xxx
+
+下载cocos2dx解压配置好路径
+预编译库文件    cocos gen-libs ...
+
+新建项目
+android 需要修改项目frameworks\runtime-src\proj.android\build_native.py 里面的引擎路径 
+
+运行'build_native.py'
+成功后就可以开始打包 cocos compile ...
+
+debug版本:
+> `cocos compile -s D:\packagePlace\zmxywz -p android -o D:\packagePlace\package --ap android-19`
+
+release 版本：
+> `cocos compile -s D:\packagePlace\zmxywz2 -p android  -m release -o D:\packagePlace\package --ap android-19`
+
+导入android工程下面自己的项目工程跟libcocos2dx工程（cocos/2d/platform/android/java）
+
 ## 隐藏手机虚拟按键
 有的手机会有虚拟按键，这时候会挡住我们游戏内容，所以需要把它设置隐藏掉，需要修改Acitivity类。eg.修改Cocos2dxActivity.java类。
 
