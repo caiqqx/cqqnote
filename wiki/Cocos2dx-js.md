@@ -40,4 +40,12 @@ var addNewBone = function(boneName){
     }
 }
 ```
+- 触摸事件里面，ios的边缘区域会有触摸延时，需要在AppController.mm里面添加以下代码
+``` Object-C
+after [window makeKeyAndVisible];
+
+for(UIGestureRecognizer* gesture in window.gestureRecognizers){
+    gesture.delaysTouchesBegan =NO;
+}
+```
 
